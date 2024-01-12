@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#nav{
+#nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,9 +14,14 @@ body {
     background-color: beige;
 }
 
-.squash, .french, .shrimp, .main{
+.squash, .french, .shrimp, .main {
     text-align: center;
     list-style-position: inside;
 }
 
+img {
+    height: 350px;
+    width: 350px;
+    border-radius: 25%;
+}
 
