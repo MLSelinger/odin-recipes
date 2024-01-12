@@ -13,3 +13,10 @@
 body {
     background-color: beige;
 }
+
+.squash, .french, .shrimp, .main{
+    text-align: center;
+    list-style-position: inside;
+}
+
+
