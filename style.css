@@ -1,22 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #home { 
     margin: 0;
     padding: 0;
 }
 
-#nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
 
 body {
-    background-color: beige;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(161, 161, 247);
 }
 
-.squash, .french, .shrimp, .main {
+.header {
+    font-family: monospace;
+    display: flex;
+    background-color: rgb(247, 197, 247);
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.mheader {
+    display:flex;
+    margin: 0;
+    justify-content: space-between;
+    width: 900px;
+    background-color: rgb(247, 197, 247);
+}
+
+.recipenav {
+    display: flex;
+
+}
+
+.fo, .bs, .ssf{
+    display: flex;
+    text-align: right;
+    padding: 0 15px;
+    
+}
+.title{
+    font-family: monospace; 
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 161, 247);
+    margin: 0;
+
+
+
+}
+
+.fo, .bs, .ssf:link {
+    color: black;
+}
+
+.fo, .bs, .ssf:visited{
+    color: black;
+}
+
+.mainfo, .mainbs, .mainssf{
+    padding: 20px;
+    display: flex;
+}
+.mainnav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.squash, .french, .shrimp{
     text-align: center;
     list-style-position: inside;
+}
+
+.squash, .french, .shrimp {
+}
+
+.fob {
+    background-color: aquamarine;
+}
+
+.bshrimp {
+    background-color: rgb(190, 158, 158);
 }
 
 img {
@@ -25,3 +99,14 @@ img {
     border-radius: 25%;
 }
 
+.main.nav{
+    margin-top: 10px;
+}
+
+.indnav:link {
+    color: black;
+}
+
+.indnav:visited {
+    color: navy;
+}
